@@ -160,3 +160,4 @@ git rm -rf .
 [xinderruila](https://github.com/xinderruila)、
 [YJY336](https://github.com/YJY336)、
 [Zeng-Qi37](https://github.com/Zeng-Qi37)、
+[hyjrikyh](https://github.com/hyjrikyh)、
