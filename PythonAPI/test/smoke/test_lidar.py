@@ -246,10 +246,10 @@ class TestASyncLidar(SmokeTest):
         sensors.append(Sensor(self, SensorType.SEMLIDAR, att_s01))
 
         time.sleep(3.0)
-
+        #销毁所有传感器
         for sensor in sensors:
             sensor.destroy()
-
+        
         for sensor in sensors:
             if not sensor.is_correct():
                 self.fail(sensor.error)
