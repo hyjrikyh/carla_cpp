@@ -66,7 +66,7 @@ if not exist "%GT_BUILD_DIR%" (
     mkdir "%GT_BUILD_DIR%"
 )
 
-cd "%GT_BUILD_DIR%"
+cd "%GT_BUILD_DIR%"                                        ::进入构建目录
 echo %FILE_N% Generating build...
 
 echo.%GENERATOR% | findstr /C:"Visual Studio" >nul && (
